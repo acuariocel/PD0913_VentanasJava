@@ -1,5 +1,5 @@
 
-import javax.swing.JOptionPane;
+import vista.Ventana1;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -17,7 +17,8 @@ public class Ejecutable {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JOptionPane.showConfirmDialog(null, "Desea salir?");
+       // JOptionPane.showConfirmDialog(null, "Desea salir?");
+        new Ventana1().setVisible(true);
     }
     
 }
