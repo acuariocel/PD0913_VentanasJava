@@ -22,6 +22,14 @@ public class Ventana5 extends javax.swing.JFrame {
     private JList jList1;
     //private javax.swing.JPanel jPanel1;
     private JPasswordField jPasswordField1;
+
+    public JTextArea getjTextArea1() {
+        return jTextArea1;
+    }
+
+    public JComboBox getjComboBox1() {
+        return jComboBox1;
+    }
     private JScrollBar jScrollBar1;
     private JScrollPane jScrollPane1,jScrollPane2,jScrollPane3;
     private JSlider jSlider1;
